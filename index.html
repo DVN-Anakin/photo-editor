@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Photo Editor</title>
+        <meta name="description" content="JavaScript online photo editor">
+        <meta name="author" content="DVN-Anakin">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="upload">
+            <label for="uploader">Select file:</label>
+            <input type="file" id="uploader" />
+        </div>
+
+        <div id="buttons">
+            <button id="rgbToRbg">RGB > RBG</button>
+            <button id="rgbToBgr">RGB > BGR</button>
+            <button id="rgbToGbr">RGB > GBR</button>
+            <button id="rgbToGrb">RGB > GRB</button>
+            <button id="greyscale">Greyscale</button>
+            <button id="sepiaEffect">Sepia effect</button>
+            <button id="invert">Invert</button>
+            <button id="clear">Clear</button>
+        </div>
+
+        <div>
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
