@@ -1,6 +1,6 @@
 # photo-editor
 JavaScript online photo editor
-https://dvn-anakin.github.io/photo-editor
+https://dvn-anakin.github.io/photo-editor/
 
 ## Functionalities
 - RGB to RBG
@@ -16,5 +16,6 @@ https://dvn-anakin.github.io/photo-editor
 *01-06-2020:* Basic features
 
 ### TODO:
-- UI
+- UI - logo, controls
 - allow manual scaling for Greyscale and Sepia effect
+- "go back" button
